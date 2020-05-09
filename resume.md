@@ -1,3 +1,5 @@
+# RESUMÉ
+
 ### EDUCATION
 
 **Federal University of Minas Gerais, Belo Horizonte, Brazil**
@@ -35,6 +37,7 @@ _R&D Intern, October 2016 – January 2018_
 - Assembly and operation of a laser cutting machine
 - Solidworks drawings and mechanical prototyping of electrical energy meters.
 
+Keywords: CNC, 3D printer, prototyping, fabrication, woodworking, GCODE, arduino
 
 ## COMPLEMENTARY ACTIVITIES
 **Exchange program (2019)**: French language course at EC Montréal (Canada)
