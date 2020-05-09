@@ -4,7 +4,7 @@
 
 **Federal University of Minas Gerais, Belo Horizonte, Brazil**
 
-_*Aerospace Engineering*. Graduation: June 2021_
+_Aerospace Engineering. Graduation: June 2021_
 
 
 ### EXPERIENCE
