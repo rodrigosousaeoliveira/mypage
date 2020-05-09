@@ -1,6 +1,9 @@
 ### EDUCATION
 
-Aerospace Engineering student at UFMG(Federal University of Minas Gerais) - graduating 2021
+**Federal University of Minas Gerais, Belo Horizonte, Brazil**
+
+_**Aerospace Engineering**. Graduation: June 2021_
+
 
 ### EXPERIENCE
 
