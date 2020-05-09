@@ -1,13 +1,14 @@
-### Education
+### EDUCATION
+
 Aerospace Engineering student at UFMG(Federal University of Minas Gerais) - graduating 2021
 
-### Experience
+### EXPERIENCE
 
 **UNDERGRADUATE RESEARCH PROGRAM, CENTER FOR AERONAUTICAL STUDIES - UFMG**
 
 _March 2019 – December 2019_
 
--Started developing a flight data acquisition system for light aircraft and UAVs in the BeagleBone Black single board computer. Worked with drivers for various sensors and construction of the Device Tree Overlay.
+- Started developing a flight data acquisition system for light aircraft and UAVs in the BeagleBone Black single board computer. Worked with drivers for various sensors and construction of the Device Tree Overlay.
 
 Keywords: Linux, drivers, devicetree, sensors, integration
 
@@ -15,10 +16,10 @@ Keywords: Linux, drivers, devicetree, sensors, integration
 
 _Member, January 2018 – December 2018_ 
 
--Fabrication and maintenance of aircraft prototypes
--Presentation of the project to the board
--Calculation of landing loads
--Solidworks design of the entire aircraft, technical drawings
+- Fabrication and maintenance of aircraft prototypes
+- Presentation of the project to the board
+- Calculation of landing loads
+- Solidworks design of the entire aircraft, technical drawings
 
 Keywords: loads, SAE AERODESIGN, airplane, Solidworks, CAD, landing gear
 
@@ -26,10 +27,10 @@ Keywords: loads, SAE AERODESIGN, airplane, Solidworks, CAD, landing gear
 
 _R&D Intern, October 2016 – January 2018_ 
 
--Development and operation of a CNC ROUTER and its manual
--Construction and operation of a 3D and its manual
--Assembly and operation of a laser cutting machine
--Solidworks drawings and mechanical prototyping of electrical energy meters.
+- Development and operation of a CNC ROUTER and its manual
+- Construction and operation of a 3D and its manual
+- Assembly and operation of a laser cutting machine
+- Solidworks drawings and mechanical prototyping of electrical energy meters.
 
 
 ## COMPLEMENTARY ACTIVITIES
@@ -37,10 +38,10 @@ _R&D Intern, October 2016 – January 2018_
 **Accomplishments**: Gold medal in 2014 and silver medal in 2013 in the Brazilian Astronomy and Astronautics Olympics.
 
 ## SKILLS
-Fluent in English
-Intermediate level in French
-Beginner level in German
-Python programming language
-Proficient MS Office
-CAD: Solidworks, Autodesk Inventor e Fusion 360
+- Fluent in English
+- Intermediate level in French
+- Beginner level in German
+- Python programming language
+- Proficient MS Office
+- CAD: Solidworks, Autodesk Inventor e Fusion 360
 
