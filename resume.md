@@ -1,4 +1,4 @@
-# RESUMÉ
+# RESUMÉ [[PDF]](https://drive.google.com/file/d/1YVwUmJ2iFuHZcgOcNLGGzo3vpSu1XKrJ/view?usp=sharing)
 
 ### EDUCATION
 
