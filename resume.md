@@ -4,7 +4,7 @@
 
 **Federal University of Minas Gerais, Belo Horizonte, Brazil**
 
-_**Aerospace Engineering**. Graduation: June 2021_
+_*Aerospace Engineering*. Graduation: June 2021_
 
 
 ### EXPERIENCE
@@ -40,8 +40,8 @@ _R&D Intern, October 2016 – January 2018_
 Keywords: CNC, 3D printer, prototyping, fabrication, woodworking, GCODE, arduino
 
 ## COMPLEMENTARY ACTIVITIES
-**Exchange program (2019)**: French language course at EC Montréal (Canada)
-**Accomplishments**: Gold medal in 2014 and silver medal in 2013 in the Brazilian Astronomy and Astronautics Olympics.
+*Exchange program (2019)*: French language course at EC Montréal (Canada)
+*Accomplishments*: Gold medal in 2014 and silver medal in 2013 in the Brazilian Astronomy and Astronautics Olympics.
 
 ## SKILLS
 - Fluent in English
