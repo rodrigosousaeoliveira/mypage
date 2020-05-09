@@ -1,12 +1,10 @@
-## Welcome to GitHub Pages
+## Welcome to my page!
 
-You can use the [editor on GitHub](https://github.com/rodrigosousaeoliveira/rodrigo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is the page I created to be my resumé/portfolio/blog and a general repository for my projects and any funny interests I might wanna share!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Who am I?
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I am a maker/tinkerer and overall STEM enthusiast who also happens to be absolutely fascinated with airplanes and other flying things. I've done some really cool and exciting projects over the years and you can check them out [here](). I also love music: I play the trombone and the guitar and will talk a lot about it if you mention it.
 
 ```markdown
 Syntax highlighted code block
