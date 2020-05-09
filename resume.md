@@ -40,6 +40,7 @@ _R&D Intern, October 2016 – January 2018_
 Keywords: CNC, 3D printer, prototyping, fabrication, woodworking, GCODE, arduino
 
 ## COMPLEMENTARY ACTIVITIES
+*Private Pilot - Airplane (2020)*: Currently pursuing a license
 *Exchange program (2019)*: French language course at EC Montréal (Canada)
 *Accomplishments*: Gold medal in 2014 and silver medal in 2013 in the Brazilian Astronomy and Astronautics Olympics.
 
