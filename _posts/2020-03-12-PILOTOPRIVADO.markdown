@@ -3,7 +3,7 @@ layout: post
 title: 'Jornada de Piloto Privado #1: Antes da primeira hora de voo'
 date: '2020-03-12 18:37:19 -0300'
 ---
-![Exames laboratoriais](/assets/images/pilotoprivado1/principal.jpg)
+![Exames laboratoriais](/mypage/assets/images/pilotoprivado1/principal.jpg)
 
 #### Antes de voar a primeira hora, alguns passos são necessários. Nesse artigo, eu explico quais são eles e como foi a minha experiência nessa fase da formação de piloto.
 
@@ -16,7 +16,7 @@ Para obter a habilitação de PP, são necessários, basicamente, o Certificado 
 
 O CMA é o documento que comprova sua capacidade física e mental perante a ANAC e existem diversas classes. **O CMA para Piloto Privado é o de segunda classe**. Para obtê-lo, devem ser feitos vários exames e eles devem ser checados e aprovados por um médico credenciado. Existem clínicas que fazem todos os exames e a perícia junto mas, se você tem um plano de saúde, eu recomendaria fazê-los pelo plano e só levá-los prontos para a perícia. Os exames são os seguintes:
 
-![Exames laboratoriais](/assets/images/pilotoprivado1/tabela_anac.png)
+![Exames laboratoriais](/mypage/assets/images/pilotoprivado1/tabela_anac.png)
 
 ### A PROVA TEÓRICA
 
@@ -30,7 +30,7 @@ Eu escolhi estudar por conta própria e tive que montar uma certa rotina para co
 
 No meu cronograma, eu decidi estudar uma matéria inteira antes de ir para a próxima, com uma média de 2 horas por dia. Assim, eu consegui estudar os livros de Conhecimentos Técnicos e Teoria de Voo em pouco menos de uma semana cada, pois eles são menores e envolvem o básico de matérias que eu já havia estudado na faculdade. Já Navegação e Meteorologia tomaram um tempo um pouco maior, os livros são maiores e o volume de coisas para decorar é maior, acredito que demorei pelo menos 10 dias em cada uma delas. Por fim, Regulamentos é a maior e mais massante matéria para se estudar, demorei duas semanas para terminar o livro. Com um volume grande assim, a organização é realmente necessária. Sintetizei esses prazos em uma tabelinha, mas não tome isso como verdade, pode ser que demore mais ou menos do que isso:
 
-![Materias](/assets/images/pilotoprivado1/tabela_materias.jpg)
+![Materias](/mypage/assets/images/pilotoprivado1/tabela_materias.jpg)
 
 Depois que terminei o período de aprender a matéria, passei para a fase de revisão e simulados. Comprei um pacote de simulados no portal [pilotocomercial.com.br](https://www.pilotocomercial.com.br/) e fiz MUITOS. A prova da ANAC, apesar de ter seus pontos positivos, é bem mecânica em alguns momentos e envolve realmente decorar nomes e regrinhas. Como sei que minha memória não é muito boa, tentei fazer pelo menos 3 simulados completos por dia para ter certeza que passaria.
 
