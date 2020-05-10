@@ -4,5 +4,5 @@ description: Aerospace Engineering Student - Maker - Trombonist - Plane Nerd
 logo: assets/images/rodrigo.png
 show_downloads: true
 collections:
-  stories:
+  projects:
     output: true
