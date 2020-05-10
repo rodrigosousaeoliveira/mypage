@@ -4,4 +4,3 @@
   <p>{{ item.description }}</p>
   <p><a href="{{ item.url }}">{{ item.title }}</a></p>
 {% endfor %}
-  </html>
