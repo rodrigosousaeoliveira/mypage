@@ -2,7 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
-
+ul {
+margin-left: auto;
+margin-right: auto;
+}
 ul.downloads {
   list-style:none;
   height:40px;
