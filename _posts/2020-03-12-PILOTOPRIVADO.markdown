@@ -5,6 +5,8 @@ date: '2020-03-12 18:37:19 -0300'
 ---
 ![Exames laboratoriais](/mypage/assets/images/pilotoprivado1/principal.jpg)
 
+(POSTADO ORIGINALMENTE NO [BARNSTORM](http://barnstorm.com.br/jekyll/update/2020/03/12/PILOTOPRIVADO.html)
+
 #### Antes de voar a primeira hora, alguns passos são necessários. Nesse artigo, eu explico quais são eles e como foi a minha experiência nessa fase da formação de piloto.
 
 Vou me formar em Engenharia Aeroespacial no próximo ano e decidi que, dessa vez, eu iria começar meu curso de Piloto Privado, decisão que eu estava adiando havia algum tempo porque realmente não é barato. Assim, eu decidi também compartilhar as diversas partes do curso em alguns artigos. Se você está pensando em começar sua jornada como Piloto, espero que minha experiência possa te ajudar de alguma forma!
