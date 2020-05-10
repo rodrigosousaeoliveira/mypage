@@ -1,9 +1,14 @@
 ---
 layout: default
+title: projects
 ---
+<h1>Portfolio</h1>
 
-{% for item in site.projects %}
-  <h2>{{ item.title }}</h2>
-  <p>{{ item.description }}</p>
-  <p><a href="{{ item.url }}">{{ item.title }}</a></p>
-{% endfor %}
+<ul>
+  {% for post in site.projects %}
+    <li>
+      <h2><a href=".{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
