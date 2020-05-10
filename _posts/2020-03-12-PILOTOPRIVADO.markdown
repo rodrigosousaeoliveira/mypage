@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Jornada de Piloto Privado #1: Antes da primeira hora de voo'
+title: '[PTBR]Jornada de Piloto Privado #1: Antes da primeira hora de voo'
 date: '2020-03-12 18:37:19 -0300'
 ---
 ![Exames laboratoriais](/mypage/assets/images/pilotoprivado1/principal.jpg)
