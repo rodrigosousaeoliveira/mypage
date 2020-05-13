@@ -4,7 +4,7 @@ title: 'CNC ROUTER: 1000mm x 1500mm Aluminium Frame'
 description: 'Probably the coolest project yet'
 
 ---
-![Cutting a Prusa I3 frame](mypage/assets/images/cnc/cnc1.jpg)
+<img alt="Cutting my Prusa I3 frame" src="mypage/assets/images/cnc/cnc2.JPG" width="500" height="667" >
 
 I was an intern at Metrum Equipamentos de Medição e Testes Ltda for 15 months and the biggest project I developed there (and the one I am the most proud of) was this beautiful CNC Router. I had great guidance from Kayran, a brilliant guy who unfortunately passed away during the project. 
 
@@ -26,4 +26,4 @@ When I finished assembling the machine, I started testing it. At first, doing so
 
 Here a short video I made while cutting a Prusa I3 frame out of MDF:
 
-[<img src="mypage/assets/images/cnc/cnc2.jpg">](https://drive.google.com/file/d/17NHyL_Y4tJYJK0ooy7x6y6hQLPyWXaQm/view?usp=sharing)
+[<img alt="Video" src="mypage/assets/images/cnc/cnc2.JPG">](https://drive.google.com/file/d/17NHyL_Y4tJYJK0ooy7x6y6hQLPyWXaQm/view?usp=sharing)
