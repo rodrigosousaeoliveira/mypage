@@ -14,9 +14,9 @@ I made the entire CAD assembly using Autodesk Inventor, which looked a lot like 
 
 ## The brains
 
-The brain of the machine is an ![Arduino Nano](https://www.arduino.cc/), believe it or not. Assembly was mostly connecting the drivers and endstops to their correct pins on the Arduino, but in that process I got to route my first PCB, which is harder than it seems! The VFD that controlled the Spindle used a 10 - 0 V signal to determine the motor speed (3000 - 18000rpm) so we ended up using an RC filter to turn the PWM signal coming from the Arduino into an usable analog signal. 
+The brain of the machine is an [Arduino Nano](https://www.arduino.cc/), believe it or not. Assembly was mostly connecting the drivers and endstops to their correct pins on the Arduino, but in that process I got to route my first PCB, which is harder than it seems! The VFD that controlled the Spindle used a 10 - 0 V signal to determine the motor speed (3000 - 18000rpm) so we ended up using an RC filter to turn the PWM signal coming from the Arduino into an usable analog signal. 
 
-The firmware we used is called ![GRBL](https://github.com/grbl/grbl) and it is the "father" of the ![Marlin](https://github.com/MarlinFirmware/Marlin) firmware, which runs on many of the modern 3D printers. It is really well documented and, for a standard assembly such as this one, not many modifications are necessary. It is really versatile and people have done all kinds of crazy things with it, I plan on making a laser engraver with it in the future.
+The firmware we used is called [GRBL](https://github.com/grbl/grbl) and it is the "father" of the [Marlin](https://github.com/MarlinFirmware/Marlin) firmware, which runs on many of the modern 3D printers. It is really well documented and, for a standard assembly such as this one, not many modifications are necessary. It is really versatile and people have done all kinds of crazy things with it, I plan on making a laser engraver with it in the future.
 
 ## Operation
 
@@ -26,4 +26,4 @@ When I finished assembling the machine, I started testing it. At first, doing so
 
 Here a short video I made while cutting a Prusa I3 frame out of MDF:
 
-[<img src="/mypage/assets/images/cnc/cnc2.jpg">](https://drive.google.com/file/d/17NHyL_Y4tJYJK0ooy7x6y6hQLPyWXaQm/view?usp=sharing)
+[<img src="mypage/assets/images/cnc/cnc2.jpg">](https://drive.google.com/file/d/17NHyL_Y4tJYJK0ooy7x6y6hQLPyWXaQm/view?usp=sharing)
