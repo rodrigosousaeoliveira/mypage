@@ -26,4 +26,4 @@ When I finished assembling the machine, I started testing it. At first, doing so
 
 Here a short video I made while cutting a Prusa I3 frame out of MDF:
 
-[<img alt="Video" src="mypage/assets/images/cnc/cnc2.JPG">](https://drive.google.com/file/d/17NHyL_Y4tJYJK0ooy7x6y6hQLPyWXaQm/view?usp=sharing)
+[<img alt="Video" src="/mypage/assets/images/cnc/cnc2.JPG">](https://drive.google.com/file/d/17NHyL_Y4tJYJK0ooy7x6y6hQLPyWXaQm/view?usp=sharing)
