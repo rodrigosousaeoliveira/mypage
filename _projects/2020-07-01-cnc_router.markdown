@@ -4,7 +4,7 @@ title: 'CNC ROUTER: 1000mm x 1500mm Aluminium Frame'
 description: 'Probably the coolest project yet'
 
 ---
-<img alt="Cutting my Prusa I3 frame" src="mypage/assets/images/cnc/cnc2.JPG" width="500" height="667" >
+<img alt="Cutting my Prusa I3 frame" src="/mypage/assets/images/cnc/cnc1.jpg" width="500" height="667" >
 
 I was an intern at Metrum Equipamentos de Medição e Testes Ltda for 15 months and the biggest project I developed there (and the one I am the most proud of) was this beautiful CNC Router. I had great guidance from Kayran, a brilliant guy who unfortunately passed away during the project. 
 
