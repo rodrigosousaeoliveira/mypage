@@ -2,6 +2,8 @@
 layout: post
 title: '(Work in progress) Mechanical Calculator  with Lego-like Modular Logic Gates'
 ---
+![Solidworks model](/mypage/assets/images/mechanical-calculator/banner.png)
+
 ## Concept
 
 Some weeks ago I was following my usual Youtube routine and I came across a really cool [video by Ben Eater](https://www.youtube.com/watch?v=wvJc9CZcvBc) about [adder circuits](https://en.wikipedia.org/wiki/Adder_(electronics)). He also made one with commercial logic gate ICs and that got me thinking: what if I could make mechanical logic gates and connect them together so that I could add something like 2 four bit numbers?
