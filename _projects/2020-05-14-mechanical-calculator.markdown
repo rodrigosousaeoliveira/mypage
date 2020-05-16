@@ -24,14 +24,17 @@ So, I obsessed a little bit about this in the following days and thought it woul
 
 ![lever as NOT gate](/mypage/assets/images/mechanical-calculator/not_gate.png)
 
-Nowadays, with 3D printing, this idea could result in some pretty cool computing projects, so one more constraint was that each module should be easily 3D PRINTABLE so that I could share it on ![Thingiverse](https://www.thingiverse.com/) and hopefully see what crazy things people could do.
+Nowadays, with 3D printing, this idea could result in some pretty cool computing projects, so one more constraint was that each module should be easily 3D PRINTABLE so that I could share it on [Thingiverse](https://www.thingiverse.com/) and hopefully see what crazy things people could do.
 
 ## First Sketches
 
 I spent a lot of time thinking about the mechanisms for each gate, and here's what I got so far:
 - **OR**
 
+![OR gate sketch](/mypage/assets/images/mechanical-calculator/sketch_or.png)
 - **AND**
+
+![AND gate sketch](/mypage/assets/images/mechanical-calculator/sketch_and.png)
 
 - The **XOR** gate is way more complicated and I have not been able to come up with a simple enough design yet. You can make one with one **OR**, one **NAND**(NOT + AND), and one **AND** and this might be the best solution for now.[(Wikipedia)](https://en.wikipedia.org/wiki/XOR_gate)
 
