@@ -6,7 +6,7 @@ title: '(Work in progress) Mechanical Calculator  with Lego-like Modular Logic G
 
 ## Concept
 
-Some weeks ago I was following my usual Youtube routine and I came across a really cool [video by Ben Eater](https://www.youtube.com/watch?v=wvJc9CZcvBc) about [adder circuits](https://en.wikipedia.org/wiki/Adder_(electronics)). He also made one with commercial logic gate ICs and that got me thinking: what if I could make mechanical logic gates and connect them together so that I could add something like 2 four bit numbers?
+Some weeks ago I was following my usual Youtube routine and I came across a really cool [video by Ben Eater](https://www.youtube.com/watch?v=wvJc9CZcvBc) about [adder circuits](https://en.wikipedia.org/wiki/Adder_(electronics)). n the video, Ben made one 4 bit adder with commercial logic gate ICs and that got me thinking: what if I could make mechanical logic gates and connect them together so that I could add something like 2 four bit numbers?
 
 ![Adder Circuit diagram](/mypage/assets/images/mechanical-calculator/adder_circuit.png)
 
@@ -28,7 +28,7 @@ Nowadays, with 3D printing, this idea could result in some pretty cool computing
 
 ## First Sketches
 
-I spent a lot of time thinking about the mechanisms for each gate, and here's what I got so far:
+I spent a lot of time thinking about the mechanisms for each gate, and here are the sketches for the first mechanisms:
 - **OR**
 
 ![OR gate sketch](/mypage/assets/images/mechanical-calculator/sketch_or.png)
@@ -39,3 +39,8 @@ I spent a lot of time thinking about the mechanisms for each gate, and here's wh
 - The **XOR** gate is way more complicated and I have not been able to come up with a simple enough design yet. You can make one with one **OR**, one **NAND**(NOT + AND), and one **AND** and this might be the best solution for now.[(Wikipedia)](https://en.wikipedia.org/wiki/XOR_gate)
 
 ![An XOR gate made with OR, NAND, and AND](/mypage/assets/images/mechanical-calculator/xor1.png)
+
+## Prototyping
+
+With the ideas for the mechanisms in mind, I started making a Solidworks assembly for the first gate. It was actually a NOR gate and the input bits were inverted inside by levers. Below you can see the first ever print. It is very basic, but the goal here was to get an idea of how small I could 3D print the parts and evaluate the tolerances.
+
