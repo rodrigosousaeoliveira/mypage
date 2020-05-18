@@ -50,3 +50,9 @@ With these problems fixed, it was time to address the modularity issue. This tim
 
 |:--:|:--:|
 |![Version 2.0](/mypage/assets/images/mechanical-calculator/v2.gif)|![Modularity demonstration](/mypage/assets/images/mechanical-calculator/v2modular.gif)
+
+## Next Steps
+
+After making some of these V2.0 AND gates and trying to connect them together, I realised I had a pretty big problem, which is "backlash". The current mechanism has gaps between the rack and the gear, and this means that if the input moves 10mm, the output will move something less than that and these gaps will sum up along the chain. Many small gaps will result in a big one in the end, and this is inherent to the design. It would have no gap if the gears had infinite teeth.
+
+To solve this, I believe a new design is necessary. I believe the best option is using marbles and thats because they will already have the energy stored (potential) and each input will be just enough to harvest it.
