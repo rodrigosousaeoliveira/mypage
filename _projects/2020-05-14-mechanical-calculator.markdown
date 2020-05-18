@@ -44,3 +44,6 @@ I spent a lot of time thinking about the mechanisms for each gate, and here are 
 
 With the ideas for the mechanisms in mind, I started making a Solidworks assembly for the first gate. It was actually a NOR gate and the input bits were inverted inside by levers. Below you can see the first ever print. It is very basic, but the goal here was to get an idea of how small I could 3D print the parts and evaluate the tolerances.
 
+![First Prototype](/mypage/assets/images/mechanical-calculator/v1.gif)
+
+With these problems fixed, it was time to address the modularity issue. This time, I designed the gate you can see in the cover for this post. Here is a demonstration of the modularity concept.
