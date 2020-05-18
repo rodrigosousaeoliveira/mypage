@@ -46,4 +46,7 @@ With the ideas for the mechanisms in mind, I started making a Solidworks assembl
 
 ![First Prototype](/mypage/assets/images/mechanical-calculator/v1.gif)
 
-With these problems fixed, it was time to address the modularity issue. This time, I designed the gate you can see in the cover for this post. Here is a demonstration of the modularity concept.
+With these problems fixed, it was time to address the modularity issue. This time, I designed the AND gate you can see in the cover for this post. Here is a demonstration of the modularity concept and the gate in operation.
+
+|:--:|:--:|
+|![Version 2.0](/mypage/assets/images/mechanical-calculator/v2.gif)|![Modularity demonstration](/mypage/assets/images/mechanical-calculator/v2modular.gif)
