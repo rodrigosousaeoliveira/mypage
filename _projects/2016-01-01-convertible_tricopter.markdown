@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'CNC ROUTER: 1000mm x 1500mm Aluminium Frame'
-description: 'Probably the coolest project yet'
+title: 'Convertible tricopter'
+description: 'Tricopters are cool!'
 
 ---
 ![A convertible tricopter](/mypage/assets/images/tricopter/convert.gif)
