@@ -3,6 +3,7 @@ title: Rodrigo Oliveira
 description: Aerospace Engineering Student - Maker - Trombonist - Plane Nerd
 logo: assets/images/rodrigo.png
 show_downloads: true
+google_analytics: UA-167755939-1
 collections:
   projects:
     output: true
