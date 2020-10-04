@@ -2,13 +2,16 @@
 layout: post
 title: 'Quick Random Project #1: A Spinning Donut!'
 ---
+![Spinning Donut!](/mypage/assets/images/spinning-donut/movie.gif)
 # Quick Random Project #1: A Spinning Donut!
 As for many of my other projects, the idea for this one came about while wandering through Youtube. I found an awesome video called [Donut-shaped C code that generates a 3D spinning donut](https://www.youtube.com/watch?v=DEqXNfs_HhY&t=5s) showing the code written by Andy Sloane. I don’t know much about how rendering works, but the idea behind the code is really cool: creating a 3D surface and making it interact with a light vector to create a 2D projected image. Andy wrote his code in C, so I thought it would be nice to implement his idea (or part of it) in Python. I used [Matplotlib](https://matplotlib.org/) to display the 2D projections of the 3D points. Andy Sloane wrote a really good small [article](https://www.a1k0n.net/2011/07/20/donut-math.html) about the code, in which he goes into a lot more detail than I will, so if you want to implement it yourself, I highly recommend reading it.
 
 
 ## Main ideas
 ### Generating the donut(or torus) points:
-image
+
+![Making the torus](/mypage/assets/images/spinning-donut/making_torus.svg )
+
 It is obtained by rotating a circle with distance R2 from the origin by 360 degrees.
 As you can see in the image, any point in the donut is described by projecting R1 and R2 in the x, y and z axis. R1 and R2 are constants and θ and φ range from 0 to 2π.
 
@@ -23,7 +26,7 @@ The luminance is defined as the dot product of the light vector and the surface 
 The dot product of these two vectors will give us the cosine of the angle with which the light hits the surface at that particular point, the higher the value, the more light hits the surface
 
 ### Projecting points
-
+![Projecting points](/mypage/assets/images/spinning-donut/prespective.png )
 
 So, without further ado, this is the current code:
 ```python
