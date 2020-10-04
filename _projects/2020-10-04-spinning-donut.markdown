@@ -11,7 +11,7 @@ As for many of my other projects, the idea for this one came about while wanderi
 ## Main ideas
 ### Generating the donut(or torus) points:
 
-![Making the torus](/mypage/assets/images/spinning-donut/making_torus.svg )
+![Making the torus](/mypage/assets/images/spinning-donut/making torus.svg )
 
 It is obtained by rotating a circle with distance R2 from the origin by 360 degrees.
 As you can see in the image, any point in the donut is described by projecting R1 and R2 in the x, y and z axis. R1 and R2 are constants and θ and φ range from 0 to 2π.
