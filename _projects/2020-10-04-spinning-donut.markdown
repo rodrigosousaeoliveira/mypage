@@ -38,7 +38,7 @@ So:
 
 We just call z' K1 to make it obvious that it is a constant. The same goes for x'. But projecting like this, our perspective is from the center ot the torus, so we need to put it a bit further away:
 
-<img align="middle" src="https://render.githubusercontent.com/render/math?math=y' = \frac{K_1y}{K_2 + z}">
+<img align="middle" src="https://render.githubusercontent.com/render/math?math=y' = \frac{K_1y}{K_2+z}">
 
 So, without further ado, this is the current code:
 ```python
