@@ -30,7 +30,7 @@ The dot product of these two vectors will give us the cosine of the angle with w
 ![Projecting points](/mypage/assets/images/spinning-donut/perspective.png )
 The coordinates we need to plot the torus are x' and y'. And:
 
-<img align="middle" src="https://render.githubusercontent.com/render/math?math= \frac{y'}{z'} = \frac{y}{z}}">
+<img align="middle" src="https://render.githubusercontent.com/render/math?math= \frac{y'}{z'} = \frac{y}{z}">
 
 So:
 
