@@ -27,7 +27,7 @@ The luminance is defined as the dot product of the light vector and the surface 
 The dot product of these two vectors will give us the cosine of the angle with which the light hits the surface at that particular point, the higher the value, the more light hits the surface
 
 ### Projecting points
-![Projecting points](/mypage/assets/images/spinning-donut/prespective.png )
+![Projecting points](/mypage/assets/images/spinning-donut/perspective.png )
 
 So, without further ado, this is the current code:
 ```python
