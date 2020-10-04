@@ -34,7 +34,7 @@ The coordinates we need to plot the torus are x' and y'. And:
 
 We just call z' K1 to make it obvious that it is a constant. The same goes for x'. But projecting like this, our perspective is from the center ot the torus, so we need to put it a bit further away:
 
-<img align="middle" src="https://render.githubusercontent.com/render/math?math=y' = \frac{K_1y}{z+K_2}">
+<img align="middle" src="https://render.githubusercontent.com/render/math?math=y' = \frac{K_1y}{z++K_2}">
 
 So, without further ado, this is the current code:
 ```python
