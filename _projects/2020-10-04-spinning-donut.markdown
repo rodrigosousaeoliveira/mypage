@@ -20,19 +20,27 @@ As you can see in the image, any point in the donut is described by projecting R
 Rotating a point in the donut is just like making coordinate transformations in any other point in space. We use one [rotation matrix](https://en.wikipedia.org/wiki/Rotation_matrix) for each axis of rotation.
 
 ### Calculating Luminance
-The luminance is defined as the dot product of the light vector and the surface normal. The light vector is arbitrary, and the surface normal can be obtained by:
+The luminance is defined as the dot product of the light vector and the [surface normal](https://en.wikipedia.org/wiki/Normal_(geometry)). The light vector is arbitrary, and the surface normal can be obtained by:
 
-<img src="https://render.githubusercontent.com/render/math?math=n = \frac{\partial f}{\partial \theta }\cdot \frac{\partial f}{\partial \phi }">
+<img align="middle" src="https://render.githubusercontent.com/render/math?math=n = \frac{\partial f}{\partial \theta }\cdot \frac{\partial f}{\partial \phi }">
 
 The dot product of these two vectors will give us the cosine of the angle with which the light hits the surface at that particular point, the higher the value, the more light hits the surface
 
 ### Projecting points
 ![Projecting points](/mypage/assets/images/spinning-donut/perspective.png )
+The coordinates we need to plot the torus are x' and y'. And:
+<img align="middle" src="https://render.githubusercontent.com/render/math?math= \frac{y'}{z'} = \frac{y}{z}}">
+So:
+<img align="middle" src="https://render.githubusercontent.com/render/math?math=y' = \frac{z'y}{z} = \frac{K_1y}{z}">
+We just call z' K1 to make it obvious that it is a constant. The same goes for x'. But projecting like this, our perspective is from the center ot the torus, so we need to put it a bit further away:
+<img align="middle" src="https://render.githubusercontent.com/render/math?math=y' = \frac{K_1y}{K_2 + z}">
 
 So, without further ado, this is the current code:
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
+import imageio
+images = []
 
 # Declaring parameters
 R2 = 3
@@ -48,13 +56,13 @@ theta, phi = np.meshgrid(theta, phi)
 
 for a in np.linspace(0, 2*np.pi, 37):
     # Normal vector
-    n = np.array([ np.cos(a)* np.sin(phi)*(R1* np.cos(theta)+R1)*(R1* np.sin(a)* np.cos(phi)* np.sin(theta)+
-    R1* np.cos(a)* np.cos(theta))+ np.sin(a)* np.sin(phi)*(R1* np.cos(theta)+R1)*(R1* np.sin(a)* np.cos(theta)-R1* np.cos(a)* np.cos(phi)* np.sin(theta)),
-    R1* np.cos(a)* (np.sin(phi)**2)*(R1* np.cos(theta)+R1)* np.sin(theta)- np.cos(phi)*(R1* np.cos(theta)+R1)*(R1* np.sin(a)* np.cos(theta)-R1* 
-    np.cos(a)* np.cos(phi)* np.sin(theta)), np.cos(phi)*(R1* np.cos(theta)+R1)*(R1* np.sin(a)* np.cos(phi)* np.sin(theta)+R1* np.cos(a)* 
-    np.cos(theta))+R1* np.sin(a)* (np.sin(phi)**2)*(R1* np.cos(theta)+R1)* np.sin(theta)])
+    n = np.array([ np.cos(a)* np.sin(phi)*(R1* np.cos(theta)+R1)*(R1* np.sin(a)* np.cos(phi)* np.sin(theta)+R1* np.cos(a)* np.cos(theta))+ 
+    np.sin(a)* np.sin(phi)*(R1* np.cos(theta)+R1)*(R1* np.sin(a)* np.cos(theta)-R1* np.cos(a)* np.cos(phi)* np.sin(theta)),
+    R1* np.cos(a)* (np.sin(phi)**2)*(R1* np.cos(theta)+R1)* np.sin(theta)- np.cos(phi)*(R1* np.cos(theta)+R1)*
+    (R1* np.sin(a)* np.cos(theta)-R1* np.cos(a)* np.cos(phi)* np.sin(theta)), np.cos(phi)*(R1* np.cos(theta)+R1)*
+    (R1* np.sin(a)* np.cos(phi)* np.sin(theta)+R1* np.cos(a)* np.cos(theta))+R1* np.sin(a)* (np.sin(phi)**2)*(R1* np.cos(theta)+R1)* np.sin(theta)])
 
-    # Light vector
+    # Creating the light vector
     l = np.array([0, 0.25, -2])
 
     # Dot product in the theta-phi space
@@ -77,7 +85,9 @@ for a in np.linspace(0, 2*np.pi, 37):
     plt.scatter(xy[0,:,:], xy[1,:,:], s=-lumin)
     plt.xlim(-20, 20)
     plt.ylim(-20, 20)
-    plt.show()
+    plt.savefig('Image%i.png'%a)
     plt.close()
+    images.append(imageio.imread('Image%i.png'%a))
+    imageio.mimsave('movie.gif', images)
 ```
 
