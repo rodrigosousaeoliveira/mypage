@@ -91,4 +91,6 @@ for a in np.linspace(0, 2*np.pi, 37):
     images.append(imageio.imread('Image%i.png'%a))
     imageio.mimsave('movie.gif', images)
 ```
+### What is missing?
+Obviously, the donut shape! With indentation being so important in Python, I guess it would be more difficult. If you read Andy's article, you might also notice that I did not write the z buffer: the piece of code that makes the program not plot points that are behind other points. Although it is not as complete as the original code, my Python script was a great oportunity to understand a bit more about rendering 3D images and remembering some important analytic geometry concepts. So this useless project wasn't useless afterall! Maybe I should write about the importance of useless projects, don't you think?
 
