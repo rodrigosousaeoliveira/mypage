@@ -22,7 +22,7 @@ Rotating a point in the donut is just like making coordinate transformations in 
 ### Calculating Luminance
 The luminance is defined as the dot product of the light vector and the [surface normal](https://en.wikipedia.org/wiki/Normal_(geometry)). The light vector is arbitrary, and the surface normal can be obtained by:
 
-<img align="middle" src="https://render.githubusercontent.com/render/math?math=n = \frac{\partial f}{\partial \theta }\cdot \frac{\partial f}{\partial \phi }">
+![Equation 1](/mypage/assets/images/spinning-donut/Eq1.gif)
 
 The dot product of these two vectors will give us the cosine of the angle with which the light hits the surface at that particular point, the higher the value, the more light hits the surface
 
@@ -30,11 +30,11 @@ The dot product of these two vectors will give us the cosine of the angle with w
 ![Projecting points](/mypage/assets/images/spinning-donut/perspective.png )
 The coordinates we need to plot the torus are x' and y'. And:
 
-<img align="middle" src="https://render.githubusercontent.com/render/math?math=y' = \frac{z'y}{z} = \frac{K_1y}{z}">
+![Equation 2](/mypage/assets/images/spinning-donut/Eq2.gif)
 
 We just call z' K1 to make it obvious that it is a constant. The same goes for x'. But projecting like this, our perspective is from the center ot the torus, so we need to put it a bit further away:
 
-<img align="middle" src="https://render.githubusercontent.com/render/math?math=y' = \frac{K_1y}{z++K_2}">
+![Equation 3](/mypage/assets/images/spinning-donut/Eq3.gif)
 
 So, without further ado, this is the current code:
 ```python
