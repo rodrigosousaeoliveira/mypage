@@ -22,7 +22,7 @@ Rotating a point in the donut is just like making coordinate transformations in 
 ### Calculating Luminance
 The luminance is defined as the dot product of the light vector and the [surface normal](https://en.wikipedia.org/wiki/Normal_(geometry)). The light vector is arbitrary, and the surface normal can be obtained by:
 
-![Equation 1]( mypage/assets/images/spinning-donut/Eq1.gif )
+![Equation 1]( /mypage/assets/images/spinning-donut/Eq1.gif )
 
 The dot product of these two vectors will give us the cosine of the angle with which the light hits the surface at that particular point, the higher the value, the more light hits the surface
 
