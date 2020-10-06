@@ -28,6 +28,7 @@ The dot product of these two vectors will give us the cosine of the angle with w
 
 ### Projecting points
 ![Projecting points](/mypage/assets/images/spinning-donut/perspective.png )
+
 The coordinates we need to plot the torus are x' and y'. And:
 
 ![Equation 2](/mypage/assets/images/spinning-donut/Eq2.gif)
